@@ -289,7 +289,6 @@ header .menu-toggle {
 .content .main-content .post .read-more {
   position: static;
   display: block;
-  /* width: 100%; */
   text-align: center;
   border: 1px solid var(--header-hover-btn);
   background: transparent;
@@ -347,7 +346,6 @@ header .menu-toggle {
 
 .content .sidebar .section.search {
   grid-area: search;
-  margin-top: 80px;
 }
 
 .content .sidebar .section.topics{
@@ -407,9 +405,6 @@ header .menu-toggle {
   margin-left: 55px;
 }
 
-.footer .footer-content .about h2 span {
-  color: #05f7ff;
-}
 .footer .footer-content .about img {
   position: absolute;
   top: 15px;
@@ -439,19 +434,6 @@ header .menu-toggle {
 .footer .footer-content .about .socials a:hover {
   border: 1px solid var(--white);
   color: var(--white);
-  transition: all 0.3s;
-}
-
-.footer .footer-content .links ul a {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 1.2em;
-  transition: all 0.3s;
-}
-
-.footer .footer-content .links ul a:hover {
-  color: var(--white);
-  margin-left: 15px;
   transition: all 0.3s;
 }
 
